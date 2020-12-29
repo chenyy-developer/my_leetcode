@@ -28,6 +28,7 @@ public:
         {
             bit *= 10;
         }
+        
         if(((bit * value) > INT_MAX) || ((bit * value) < INT_MIN))
         {
             return 0;
